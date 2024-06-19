@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/albums.css">
+</head>
+<body>
+    <header>
+        <h1>Photos n stuff</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/stuffivesnapped">Stuff-I've-Snapped</a></li>
+                <li><a href="/project2">Stuff-I've-Made</a></li>
+                <li><a href="/project3">Stuff-I've-Blogged</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="album" onclick="viewAlbum('album1')">
+            <img src="/images/photography/album1/image1.jpg" alt="Album 1">
+            <p>Album 1 Description</p>
+        </div>
+        <div class="album" onclick="viewAlbum('album2')">
+            <img src="/images/photography/album2/image1.jpg" alt="Album 2">
+            <p>Album 2 Description</p>
+        </div>
+        <!-- Add more albums as needed -->
+    </main>
+    <script src="/js/photography.js"></script>
+</body>
+</html>
